@@ -1,0 +1,108 @@
+/* Global styling  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Global styling  */
+
+
+body {
+    height: 100vh;
+    background-color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Start styling the header  */
+
+header {
+    height: 14vh;
+    background-color: rgb(87, 87, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+/* End styling the header  */
+
+
+/* Start styling the main  */
+main {
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+main div {
+    width: 400px;
+    height: 400px;
+
+}
+
+main .target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(183, 188, 221);
+    color: black;
+    border-radius: 50px;
+}
+
+main h1 {
+    text-transform: uppercase;
+}
+
+main .rightbox {
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+main .rightbox button,
+main .rightbox input {
+    padding: 15px 20px;
+    background-color: rgb(244, 244, 247);
+    color: rgb(120, 120, 222);
+    display: block;
+    width: 100%;
+    font-size: 25px;
+
+}
+
+
+main .rightbox button {
+    cursor: pointer;
+}
+
+
+main .rightbox span,
+main .rightbox input {
+    color: rgb(30, 109, 109);
+}
+
+
+/* End styling the main  */

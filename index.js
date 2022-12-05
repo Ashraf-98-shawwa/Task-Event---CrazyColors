@@ -3,10 +3,7 @@ const button = document.getElementById("button")
 const input = document.getElementById("input")
 
 button.onclick = _ => {
-    let number = parseInt(Math.random() * 1000000);
-    let color = "#" + number;
-    input.value = color;
-    target[0].style.backgroundColor = color;
+    changecolor()
 }
 
 input.oninput = _ => {
@@ -20,7 +17,7 @@ target[0].onmouseover = _ => {
 
 target[0].onmouseout = _ => {
     clearInterval(myInterval)
- };
+};
 
 
 

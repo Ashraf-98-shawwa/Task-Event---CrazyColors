@@ -16,12 +16,14 @@
 <body>
 
 
-    <!-- header start  -->
+    <!-- header start ( Title ) -->
     <header>
         <h1>CRAZY COLORS</h1>
     </header>
-    <!-- header end  -->
+    <!-- header end  ( Title ) -->
 
+
+    <!-- main start ( input , button and the painting box ) -->
     <main>
         <div class="target">
             <h1>Paint me</h1>
@@ -30,9 +32,14 @@
             <button id="button">Choose Random color</button>
             or
             <span>type hexa color</span>
-            <input type="text" id="input">
+            <input value="#" minlength ="4" maxlength="7" type="text" id="input">
         </div>
     </main>
+    <!-- main end ( input , button and the painting box ) -->
+
+
+    <!-- linking the js file  -->
+    <script src="index.js"></script>
 </body>
 
 </html>
